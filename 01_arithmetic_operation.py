@@ -29,7 +29,7 @@ def remainder(a, b):
 
 
 def arithmetic_operation(a, b):
-    print(plus(a, b))
+    print(plus(a, b))  
     print(minus(a, b))
     print(multiply(a, b))
     print(divide(a, b))
