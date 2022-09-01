@@ -9,7 +9,7 @@ def word_study(word):
 
     for i in range(len(word)):
         if word[i] in alphabet_dict:
-            alphabet_dict[word[i]] += alphabet_dict[word[i]]
+            alphabet_dict[word[i]] += 1
         else:
             alphabet_dict[word[i]] = 1
 
