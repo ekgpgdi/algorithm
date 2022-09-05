@@ -1,4 +1,4 @@
-# https://www.acmicpc.net/problem/2588 (세 자리 수) × (세 자리 수)  
+# https://www.acmicpc.net/problem/2588 (세 자리 수) × (세 자리 수)
 def multiply(a, b):
     sum = 0
     for i in reversed(range(len(b))):
