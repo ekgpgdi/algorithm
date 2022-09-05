@@ -3,9 +3,9 @@ def solution(survey, choices):
     answer = ''
     score = dict(R=0, T=0, C=0, F=0, J=0, M=0, A=0, N=0)
     for i in range(len(survey)):
-        if choices[i] > 4:
+        if choices[i] < 4:
             score[survey[i][:1]] += 4 - choices[i]
-        elif choices[i] < 4:
+        elif choices[i] > 4:
             score[survey[i][1:]] += choices[i] - 4
 
     answer += 'R' if score['R'] >= score['T'] else 'T'
