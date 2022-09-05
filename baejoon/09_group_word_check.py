@@ -1,4 +1,4 @@
-# https://www.acmicpc.net/problem/1316
+# https://www.acmicpc.net/problem/1316 
 def group_word_check(word):
     alphabet = [0] * 26
     alphabet[ord(word[0]) - ord('a')] = 1
